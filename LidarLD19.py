@@ -259,7 +259,7 @@ class LidarPlot:
 
 # Main function modified to use LD19LidarParse and LidarPlot
 def main():
-    lidar_out = LD19Lidar(port_name='COM10',min_angle=0,max_angle=359) # e.g. RaspberryPi OS:port_name ='/dev/ttyUSB0, Windows OS:port_name='COM10' 
+    lidar_out = LD19Lidar(port_name='/dev/ttyUSB0',min_angle=0,max_angle=359) # e.g. RaspberryPi OS:port_name ='/dev/ttyUSB0, Windows OS:port_name='COM10' 
     plotter = LidarPlot()
 
     try:
