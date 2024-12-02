@@ -1,4 +1,4 @@
-[Japanese(Google Translate)](https://github-com.translate.goog/covao/LidarLD19/blob/main/README.md?_x_tr_sl=en&_x_tr_tl=ja&_x_tr_hl=ja&_x_tr_pto=wapp) 
+[Japanese(Google Translate)](https://github-com.translate.goog/covao/LidarLD19/blob/main/LidarLD19.md?_x_tr_sl=en&_x_tr_tl=ja&_x_tr_hl=ja&_x_tr_pto=wapp) 
 
 # LD19 Lidar Parts Class Specifications
 - Overview: LD19 Lidar module
