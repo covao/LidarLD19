@@ -4,3 +4,9 @@
 LidarLD19 is a Donkey Car part that reads and parses serial data from the LD19 Lidar sensor, normalizes scan data, and provides real-time 2D Lidar plotting for distance and angle measurements using matplotlib.
 
 ![Plot](img/LidarPlot.gif)
+
+# [LD19 Lidar Parts Class Specifications](https://github.com/covao/LidarLD19/blob/main/LidarLD19.md)
+
+# [DonkeyCar Parts Code](https://github.com/covao/LidarLD19/blob/main/LidarLD19.py)
+- Works on both Raspberrypi OS and Windows. Set the appropriate device for the serial port name.
+- The source code is automatically generated using generative AI.
