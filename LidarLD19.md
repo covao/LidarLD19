@@ -50,7 +50,7 @@
 - Class Name: `LD19LidarParse`
 - Overview: Extracts data from LD19 Lidar serial communication packets
 - Input:
-  - Byte data array, reset
+  - Byte data array
   - Reset
 - Output: Distance data array, intensity data array, angle data array
 - Parameters: None
@@ -128,6 +128,11 @@
 - Runs the `LD19Lidar` and `LidarPlot` in the `main` function
 - Serial port name: '/dev/ttyUSB0' (default for Raspberry Pi), or for Windows: e.g., 'COM3'
 
+## Generated Code Format
+- All code should be in English
+- Serial communication and data processing functions should be separated, with other functions structured to be testable
+- Use the Python Parts Class Template below
+
 ## DonkeyCar Python Parts Class Template
 ~~~ python
 # Import statements should be placed if needed
@@ -169,8 +174,4 @@ class MyCounter():
         pass
 ~~~
 
-## Generated Code Format
-- All code should be in English
-- Serial communication and data processing functions should be separated, with other functions structured to be testable
-- Use the Python Parts Class Template below
 
